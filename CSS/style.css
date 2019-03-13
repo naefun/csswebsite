@@ -1,0 +1,1035 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background: #e8e8e8;
+}
+
+/* -------------------- start of header ------------------------------------------ */
+.documentStart {
+    float: left;
+    display: block;
+    width: 100%;
+}
+
+#web_nav {
+    font-size: x-large;
+    background-color: #1d1d1d;
+}
+
+#web_nav ul {
+    overflow: hidden;
+}
+
+#web_nav li {
+    float: left;
+}
+
+#web_nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 6px 16px;
+}
+
+#web_nav a:hover:not(.active) {
+    background-color: #ff995e;
+}
+
+#web_nav .active {
+    background-color: #ff5e00;
+}
+
+/* online store drop down menu */
+#oStore:hover #storeDrop {
+    display: none;
+    /* change to block to enable drop down menu */
+}
+
+#storeDrop {
+    position: absolute;
+    display: none;
+    background: #ff995e62;
+    box-shadow: 0px 3px 20px 0px #0000002e;
+}
+
+#storeDrop a {
+    text-align: left;
+}
+
+.opening_times #day,
+#times,
+#ot_title {
+    color: white;
+}
+
+.opening_times #day,
+#status {
+    display: inline;
+}
+
+#times_btn a{
+    cursor: default;
+}
+
+#times_btn img {
+    vertical-align: sub;
+    width: 25px;
+}
+
+#times_btn:hover #times_drop {
+    display: block;
+}
+
+#times_drop {
+    padding: 7px;
+    display: none;
+    position: absolute;
+    background: #ff995e62;
+    box-shadow: 0px 3px 20px 0px #0000002e;
+}
+
+/* ------------------------------- end of header ------------------------------- */
+
+/* -------------------- start of footer ---------------------------------*/
+.documentEnd {
+    height: 150px;
+    clear: both;
+}
+
+.footerContents {
+    margin: 20px 10%;
+}
+
+.footerList {
+    text-align: center;
+}
+
+.icons {
+    padding: 10px;
+}
+
+.footerList li {
+    display: inline;
+    padding: 0 20px;
+    color: #ff5e00;
+}
+
+.footerList a {
+    color: #ff5e00;
+}
+
+/* -------------------- end of footer ---------------------------------*/
+
+/* ------------------------------- start of index.phpphp ---------------------------- */
+
+/* container for home START */
+.home_container {
+    display: grid;
+    grid-template-areas:
+        "banner banner banner"
+        "features features features"
+        "business business business"
+        "store store store";
+    grid-template-columns: repeat(3, 1fr);
+    clear: both;
+}
+
+/* container for home END */
+
+/* image banner START */
+.image_banner {
+    grid-area: banner;
+    background-color: #a5a5a5;
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-origin: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#store_banner {
+    background-image: url(../IMGS/esports.jpg);
+}
+
+.image_gradient {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0) 0%,
+        rgba(0, 0, 0, 0.3) 40%,
+        rgba(0, 0, 0, 0.5) 80%,
+        rgba(0, 0, 0, 0.7) 90%,
+        rgba(0, 0, 0, 0.9) 95%,
+        rgba(0, 0, 0, 1.0) 100%);
+    grid-area: banner;
+}
+
+.banner_title {
+    grid-area: banner;
+    font-size: 4em;
+    margin: auto;
+}
+
+.banner_title h1 {
+    color: #ffffff;
+    font-weight: 100;
+    border: 5px solid #ffffff;
+    padding: 20px;
+    margin: 20px;
+    /*background: rgba(0, 0, 0, 0.3);*/
+}
+
+/* image banner END */
+
+/* feature section START */
+.feature_container {
+    grid-area: features;
+    background-color: #e8e8e8;
+}
+
+.feature_layout {
+    display: flex;
+}
+
+.feature_layout>article {
+    background-color: #f3f3f3;
+    margin: 20px 5%;
+    padding: 10px;
+    flex: 1 1 0;
+    min-height: 300px;
+    border-radius: 4%;
+    box-shadow: 0px 3px 20px 0px #0000002e;
+}
+
+.feature_layout>article:first-child {
+    margin-left: 10%;
+    margin-right: 0;
+}
+
+.feature_layout>article:last-child {
+    margin-right: 10%;
+    margin-left: 0;
+}
+
+.feature_layout header {
+    margin: 0 0 15px 0;
+}
+
+.feature_layout header img {
+    margin: auto;
+    display: block;
+    height: 100px;
+    background-color: #ff5e00;
+    border-radius: 50%;
+}
+
+.feature_layout summary {
+    text-align: center;
+    font-size: larger;
+}
+
+.feature_layout .subtitle {
+    color: #ff5e00;
+}
+
+.subList {
+    font-size: medium;
+}
+
+/* feature section END */
+
+/* business section START */
+.business_section {
+    grid-area: business;
+}
+
+.business_bg {
+    background: url(../IMGS/business.jpeg);
+    background-position: center;
+    background-origin: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-template-areas: "b_banner";
+    display: grid;
+    min-height: 350px;
+    margin: 20px 10%;
+    box-shadow: 0px 3px 20px 0px #0000005e;
+}
+
+.business_container {
+    grid-area: b_banner;
+    display: grid;
+    grid-template-areas:
+        "title article";
+    grid-template-columns: 60% 40%;
+}
+
+.business_fade {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0) 0%,
+        rgba(0, 0, 0, 1.0) 100%);
+    grid-area: b_banner;
+}
+
+#title_area {
+    grid-area: title;
+    display: grid;
+    grid-template-areas: "title_area";
+}
+
+#business_title {
+    margin: auto;
+    color: #ff5e00;
+    font-size: 3em;
+    grid-area: title_area;
+}
+
+#ITZ {
+    color: white;
+    border: solid white 5px;
+    padding: 5px;
+}
+
+#business_article {
+    grid-area: article;
+    display: grid;
+    background: #0000003a;
+}
+
+#article_bg {
+    padding: 20px;
+    margin: auto;
+}
+
+#business_article p {
+    color: #ffffff;
+    font-size: 25px;
+    text-shadow: 0px -2px 5px black;
+}
+
+.bookSpot {
+    text-align: center;
+}
+
+.hereLink {
+    background: #ff5e00;
+    border-radius: 5%;
+}
+
+/* business section END */
+
+
+/* store section START */
+.store_section {
+    grid-area: store;
+}
+
+.store_bg {
+    background: url(../IMGS/gaming.jpg);
+    background-position: center;
+    background-origin: content-box;
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-template-areas: "s_banner";
+    display: grid;
+    min-height: 350px;
+    margin: 20px 10%;
+    box-shadow: 0px 3px 20px 0px #0000005e;
+}
+
+.store_container {
+    grid-area: s_banner;
+    display: grid;
+    grid-template-areas:
+        "s_title s_article";
+    grid-template-columns: 60% 40%;
+}
+
+.store_fade {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.0) 0%,
+        rgba(0, 0, 0, 1.0) 100%);
+    grid-area: s_banner;
+}
+
+#s_title_area {
+    grid-area: s_title;
+    display: grid;
+    grid-template-areas: "s_title_area";
+}
+
+#store_title {
+    margin: auto;
+    color: #ff5e00;
+    font-size: 3em;
+    grid-area: s_title_area;
+}
+
+#ITZ {
+    color: white;
+    border: solid white 5px;
+    padding: 5px;
+}
+
+#store_article {
+    grid-area: s_article;
+    display: grid;
+    background: #0000003a;
+}
+
+#s_article_bg {
+    padding: 20px;
+    margin: auto;
+}
+
+#store_article p {
+    color: #ffffff;
+    font-size: 25px;
+    text-shadow: 0px -2px 5px black;
+}
+
+/* store section END */
+
+
+/* ------------------------------- end of index.php ---------------------------- */
+
+
+
+
+
+
+/* ------------------------------- start of zones.php ---------------------------- */
+.zonesWrapper {
+    clear: both;
+}
+
+.zoneContainer {
+    display: grid;
+    grid-template-areas:
+        "zoneCover"
+        "zoneInfo";
+}
+
+
+/* start of zone banner image */
+.zoneCover {
+    grid-area: zoneCover;
+    min-height: 400px;
+    display: grid;
+    grid-template-areas: "zCover";
+}
+
+.nameWrapper {
+    grid-area: zCover;
+    margin: auto;
+}
+
+.infoBtn {
+    background: linear-gradient(to bottom, #00000031, #00000071, #000000d3);
+    grid-area: zCover;
+    cursor: pointer;
+}
+
+.zoneName {
+    border: #ffffff solid 5px;
+    font-size: 50px;
+    padding: 10px 20px;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+/* end of zone banner image */
+
+
+/* start of zone information */
+.zoneInfo {
+    min-height: 200px;
+    grid-area: zoneInfo;
+    display: grid;
+    grid-template-areas: "zoneLeft zoneRight";
+    grid-template-columns: repeat(2, 1fr);
+    background: #ff995e;
+    text-align: center;
+}
+
+.zoneSide h2 {
+    color: #ffffff;
+}
+
+.zoneLeft {
+    grid-area: zoneLeft;
+    border-right: 1px solid #ffffff;
+    padding: 20px;
+}
+
+.zoneAbout {
+    padding: 5px 0;
+}
+
+.zoneMap {
+    height: 100%;
+}
+
+.zoneMap iframe {
+    min-height: 100%;
+    width: 100%;
+}
+
+.zoneRight {
+    border-left: 1px solid #ffffff;
+}
+
+.fTitle {
+    padding: 5px 0 0 0;
+}
+
+.facilityContainer {
+    padding: 10px 0 0 0;
+    grid-area: rightFacilities;
+    display: grid;
+    grid-template-areas: "listLeft listRight";
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.facilityContainer li {
+    padding: 5px 0 0 0;
+}
+
+.fListL {
+    grid-area: listLeft;
+}
+
+.fListR {
+    grid-area: listRight;
+}
+
+#zone1I,
+#zone2I,
+#zone3I,
+#zone4I,
+#zone5I,
+#zone6I {
+    display: none;
+}
+
+/* end of zone information */
+
+/* zone 1 */
+
+#zone1 {
+    background: url(../IMGS/store1.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 20% 80%;
+}
+
+/* zone 2 */
+
+#zone2 {
+    background: url(../IMGS/store3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 30% 70%;
+}
+
+/* zone 3 */
+
+#zone3 {
+    background: url(../IMGS/store4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* zone 4 */
+
+#zone4 {
+    background: url(../IMGS/store5.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* zone 5 */
+
+#zone5 {
+    background: url(../IMGS/store6.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* zone 6 */
+
+#zone6 {
+    background: url(../IMGS/store7.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* ------------------------------- end of zones.php ---------------------------- */
+
+/* ------------------------------- start of contact.php ---------------------------- */
+
+/* contact info blocks */
+.contactWrapper {
+    clear: both;
+    margin: 0 20%;
+}
+
+.contactInfo {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.cInfo {
+    text-align: center;
+    padding: 10px;
+    margin: 0 15px;
+    width: 150px;
+}
+
+.wk {
+    font-weight: bold;
+}
+
+.infoDetails {
+    padding: 10px 0;
+}
+
+.infoImg {
+    height: 75px;
+    width: 75px;
+}
+
+.socialMedias li {
+    padding: 0 0 5px 0;
+}
+
+.socialMedias li a:hover {
+    color: #ff5e00;
+}
+
+/* contact form */
+.contactForm {
+    padding: 50px 0;
+}
+
+.formWrapper {
+    padding: 10px;
+    border-radius: 7px;
+    background-color: #f3f3f3;
+    box-shadow: 0 0 20px 0 #9c9c9c;
+}
+
+input[type=text],
+textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #999999;
+    border-radius: 4px;
+}
+
+input[type=radio] {
+    padding: 15px;
+    margin: 5px 0 20px 0;
+}
+
+input[type=submit] {
+    padding: 10px;
+    background-color: #ff5e00;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #be4e0d;
+}
+
+.radioList li {
+    display: inline;
+    margin-right: 30px;
+    color: #747474;
+    font-size: 13px;
+}
+
+textarea {
+    max-width: 100%;
+    height: 150px;
+}
+
+
+/* ------------------------------- end of contact.php ---------------------------- */
+
+/* ------------------------------- start of event.html ------------------------------- */
+.eventContainer {
+    clear: both;
+}
+
+/* page info */
+.eventBlurb {
+    background-color: #00000080;
+    text-align: center;
+}
+
+.eventBlurb p {
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+/* event image banner */
+.eventWrapper {
+    margin: 0 20%;
+}
+
+.eventBanner {
+    margin: 20px 0 0 0;
+}
+
+#slide1 {
+    background: url(../IMGS/event1.jpg) center no-repeat;
+    background-size: cover;
+}
+
+#slide2 {
+    background: url(../IMGS/event2.jpg) center no-repeat;
+    background-size: cover;
+    display: none;
+}
+
+#slide3 {
+    background: url(../IMGS/event3.jpg) center no-repeat;
+    background-size: cover;
+    display: none;
+}
+
+.eventBanner {
+    height: 300px;
+    position: relative;
+}
+
+.mySlides {
+    height: 100%;
+    position: relative;
+}
+
+.bannerInfo {
+    position: absolute;
+    bottom: 0;
+    background-color: #00000096;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.bannerButton {
+    font-size: 30px;
+    background-color: #00000096;
+    padding: 5px;
+    position: absolute;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#leftButton {
+    top: 40%;
+}
+
+#rightButton {
+    top: 40%;
+    right: 0;
+}
+
+/* calendar */
+.eventShowcase {
+    margin: 20px 0 100px 0;
+    clear: both;
+    min-height: 250px;
+    display: grid;
+    grid-template-areas: "calendar cInfo";
+    grid-template-columns: 300px auto;
+}
+
+.eventCalendar {
+    float: left;
+    grid-area: calendar;
+}
+
+.main {
+    width: 300px;
+    height: 250px;
+    box-shadow: 0 0 20px #9c9c9c;
+}
+
+.month {
+    background-color: #ff5e00;
+    font: bold 12px verdana;
+    color: #ffffff;
+}
+
+.daysofweek {
+    background-color: #1d1d1d;
+    font: bold 12px verdana;
+    color: #ffffff;
+}
+
+.days {
+    font-size: 12px;
+    font-family: verdana;
+    color: #000000;
+    background-color: #e8e8e8;
+    padding: 2px;
+}
+
+.days #today {
+    font-weight: bold;
+    color: #ff5e00;
+}
+
+/* event listings */
+.showcaseInfo {
+    grid-area: cInfo;
+    padding: 0 0 0 20px;
+}
+
+.showcaseBlurb {
+    text-align: center;
+    color: #ff5e00;
+}
+
+.eventName {
+    text-align: center;
+    padding: 15px;
+    color: #ffffff;
+    text-shadow: 0 0 10px #000000;
+    cursor: pointer;
+}
+
+.eventName:hover {
+    padding: 25px;
+}
+
+.showcaseInfo p {
+    padding: 0 0 10px 0;
+    color: #ffffff;
+    font-size: 20px;
+    text-shadow: 0 0 10px #000000;
+}
+
+.eventInfo {
+    display: none;
+    padding: 15px;
+    background: linear-gradient(transparent, #000000);
+}
+
+#event1 {
+    background: url(../IMGS/blackout.jpg) center no-repeat;
+    background-size: cover;
+}
+
+#event2 {
+    background: url(../IMGS/fortnite.jpg) center no-repeat;
+    background-size: cover;
+}
+
+#event3 {
+    background: url(../IMGS/r6s.jpg) center no-repeat;
+    background-size: cover;
+}
+
+#event4 {
+    background: url(../IMGS/LoL.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.enquire {
+    background: #ff5e00a9;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.enquire:hover {
+    background: #d44e00a9;
+}
+
+
+/* ------------------------------- end of event.html ------------------------------- */
+
+/* ------------------------------- start of findus.php ------------------------------- */
+
+.zonesMap iframe {
+    width: 100%;
+    height: 70vh;
+}
+
+.zonesInfo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 10%;
+}
+
+.zoneWindow {
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    background: #cccccc;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.zoneWindow ul {
+    padding: 10px 0 0 0;
+}
+
+.OTT {
+    font-weight: bold;
+}
+
+/* ------------------------------- end of findus.php ------------------------------- */
+
+
+/* ------------------------------- start of store.php ------------------------------- */
+
+.storeWrapper {
+    clear: both;
+    margin: 0 20%;
+    padding: 20px 0;
+}
+
+.storeBlock {
+    padding: 0 0 20px 0;
+}
+
+.titleBlock {
+    height: 200px;
+    width: 100%;
+}
+
+.titleShade {
+    background: #0000004d;
+    grid-template-areas: "titleB";
+    display: grid;
+    font-size: 30px;
+    height: 200px;
+    width: 100%;
+}
+
+.titleHeader {
+    margin: auto;
+    grid-area: titleB;
+    border: 5px solid #ffffff;
+    padding: 10px 20px;
+    color: #ffffff;
+}
+
+/* game block bg */
+#gameBlock {
+    background: url(../IMGS/games.jpg) center no-repeat;
+    background-size: cover;
+}
+
+/* music block bg */
+#musicBlock {
+    background: url(../IMGS/music.jpg) center no-repeat;
+    background-size: cover;
+}
+
+/* film block bg */
+#filmsBlock {
+    background: url(../IMGS/films.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.blurbBlock {
+    background-color: #1d1d1d;
+    text-align: center;
+}
+
+.blurbBlock p {
+    padding: 10px 50px;
+    color: #ffffff;
+}
+
+.productBlock {
+    background-color: #cccccc;
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.product {
+    width: 200px;
+    background: #ffffff;
+    text-align: center;
+    margin: 0 10px 10px 0;
+    border-radius: 5px;
+}
+
+.product img {
+    max-width: 200px;
+    border-radius: 5px;
+}
+
+.product a {
+    display: inline-block;
+    padding: 5px;
+}
+/* ------------------------------- end of store.php ------------------------------- */
+
+/* ------------------------------- start of login.php ------------------------------- */
+
+.loginWrapper{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 35%;
+}
+
+.loginWrapper h1{
+    padding: 0 0 20px 0;
+}
+
+.loginForm input[type=text],
+input[type=password]{
+    width: 200px;
+    height: 20px;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #999999;
+    border-radius: 4px;
+}
+
+.newUser{
+    padding: 20px;
+    display: inline-block;
+    font-size: 15px;
+    color: #ff5e00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------------------------------- end of login.php ------------------------------- */
