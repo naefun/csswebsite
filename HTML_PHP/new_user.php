@@ -27,7 +27,7 @@ else{
 <html>
 
 <head>
-    <title>Home | InTheZone</title>
+    <title>New user | InTheZone</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../CSS/style.css">
     <script type="text/javascript" src="../JS/basiccalendar.js"></script>
@@ -35,6 +35,11 @@ else{
 
 <body class="loginBody">
 
+<div class="loginBackground"></div>
+<div class="backgroundFilter"></div>
+<div class="loginTitle">
+    <h1>InTheZone</h1>
+</div>
 <div class="loginWrapper">
     <h1>Create an account</h1>
     <?php

@@ -988,6 +988,43 @@ textarea {
 
 /* ------------------------------- start of login.php ------------------------------- */
 
+.loginTitle{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 20%;
+}
+
+.loginTitle h1{
+    font-size: 50px;
+    display: inline;
+    border: 5px solid #ffffff;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.loginBackground{
+    width: 100%;
+    height: 100%;
+    background: url("../IMGS/gaming1.jpg") no-repeat center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    background-origin: content-box;
+}
+
+.backgroundFilter{
+    width: 100%;
+    height: 100%;
+    background: rgba(1, 1, 1, 0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-size: cover;
+    background-origin: content-box;
+}
+
 .loginWrapper{
     text-align: center;
     position: absolute;
@@ -997,6 +1034,14 @@ textarea {
 
 .loginWrapper h1{
     padding: 0 0 20px 0;
+    color: #ff5e00;
+}
+
+.loginForm{
+    display: inline-block;
+    background: rgba(1,1,1,0.3);
+    border-radius: 20px;
+    padding: 10px;
 }
 
 .loginForm input[type=text],
@@ -1009,11 +1054,19 @@ input[type=password]{
     border-radius: 4px;
 }
 
+.loginForm label{
+    color: #ff5e00;
+}
+
 .newUser{
     padding: 20px;
     display: inline-block;
     font-size: 15px;
     color: #ff5e00;
+}
+
+.message{
+    color: rgba(255, 255, 255, 0.45);
 }
 
 

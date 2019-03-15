@@ -38,16 +38,21 @@
 <html>
 
 <head>
-    <title>Home | InTheZone</title>
+    <title>Login | InTheZone</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../CSS/style.css">
     <script type="text/javascript" src="../JS/basiccalendar.js"></script>
 </head>
 
-<body class="loginBody">
+<body>
+
+<div class="loginBackground"></div>
+<div class="backgroundFilter"></div>
+<div class="loginTitle">
+        <h1>InTheZone</h1>
+</div>
 
     <div class="loginWrapper">
-
         <h1>Login to your account</h1>
         <?php
         if(!empty($message)){
@@ -56,6 +61,7 @@
         ?>
 
         <form class="loginForm" action="login.php" method="post">
+
             <label for="username">Username:</label><br>
             <input type="text" name="username" maxlength="30" value="<?php echo htmlentities($username); ?>">
 

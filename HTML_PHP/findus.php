@@ -11,7 +11,7 @@ if(!isset($_SESSION['user_id'])){
 <html>
 
 <head>
-    <title>Home | InTheZone</title>
+    <title>Find us | InTheZone</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../CSS/style.css">
     <script type="text/javascript" src="../JS/basiccalendar.js"></script>
