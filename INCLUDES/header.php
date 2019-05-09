@@ -28,7 +28,7 @@
                         </section>
                     </div>
                 </li>
-                <li><a href="logout.php">Logout</a></li>
+                <li><a href="logout.php">Logout user: <?php echo $_SESSION['user_name']; ?></a></li>
             </ul>
         </nav>
     </header>

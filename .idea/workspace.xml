@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ea023737-8673-4a40-a052-37840ee628b1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CSS/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/CSS/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML_PHP/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_PHP/contact.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML_PHP/events.php" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_PHP/events.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML_PHP/findus.php" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_PHP/findus.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML_PHP/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_PHP/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML_PHP/new_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_PHP/new_user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HTML_PHP/store.php" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_PHP/store.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/INCLUDES/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/INCLUDES/header.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,11 +13,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML_PHP/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
-              <caret line="60" column="10" lean-forward="true" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HTML_PHP/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/INCLUDES/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -31,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HTML_PHP/new_user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
+            <state relative-caret-position="697">
               <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
             </state>
           </provider>
@@ -40,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CSS/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="1041" column="30" selection-start-line="1041" selection-start-column="30" selection-end-line="1041" selection-end-column="30" />
+            <state relative-caret-position="595">
+              <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -69,7 +81,6 @@
         <option value="$PROJECT_DIR$/HTML_PHP/zones.php" />
         <option value="$PROJECT_DIR$/HTML_PHP/index.php" />
         <option value="$PROJECT_DIR$/HTML_PHP/logout.php" />
-        <option value="$PROJECT_DIR$/INCLUDES/header.php" />
         <option value="$PROJECT_DIR$/HTML_PHP/contact.php" />
         <option value="$PROJECT_DIR$/HTML_PHP/events.php" />
         <option value="$PROJECT_DIR$/HTML_PHP/findus.php" />
@@ -77,6 +88,7 @@
         <option value="$PROJECT_DIR$/HTML_PHP/new_user.php" />
         <option value="$PROJECT_DIR$/CSS/style.css" />
         <option value="$PROJECT_DIR$/HTML_PHP/login.php" />
+        <option value="$PROJECT_DIR$/INCLUDES/header.php" />
       </list>
     </option>
   </component>
@@ -105,18 +117,18 @@
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="CSS_Website" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="csswebsite" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
             <path>
-              <item name="CSS_Website" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="CSS" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="CSS_Website" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="csswebsite" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="HTML_PHP" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="csswebsite" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="INCLUDES" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -163,11 +175,15 @@
       <workItem from="1552437305614" duration="93000" />
       <workItem from="1552518423371" duration="1559000" />
       <workItem from="1552521248973" duration="2823000" />
+      <workItem from="1553507741847" duration="257000" />
+      <workItem from="1553508250585" duration="44000" />
+      <workItem from="1556870671568" duration="32000" />
+      <workItem from="1556870735043" duration="913000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15518000" />
+    <option name="totallyTimeSpent" value="16764000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -181,7 +197,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26066098" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27132195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
@@ -206,12 +222,8 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../inthezone-WSS/@@attempt_2/includes/header.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../inthezone-WSS/@@attempt_2/includes/navigation.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../inthezone-WSS/@@attempt_2/includes/header.php" />
+    <entry file="file://$PROJECT_DIR$/../inthezone-WSS/@@attempt_2/includes/navigation.php" />
     <entry file="file://$PROJECT_DIR$/INCLUDES/connection.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -225,22 +237,10 @@
     <entry file="file://$PROJECT_DIR$/INCLUDES/functions.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../inthezone-WSS/@@attempt_2/create_page.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../inthezone-WSS/@@attempt_2/content.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../inthezone-WSS/@@attempt_2/edit_page.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../inthezone-WSS/@@attempt_2/staff.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="6" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../inthezone-WSS/@@attempt_2/create_page.php" />
+    <entry file="file://$PROJECT_DIR$/../inthezone-WSS/@@attempt_2/content.php" />
+    <entry file="file://$PROJECT_DIR$/../inthezone-WSS/@@attempt_2/edit_page.php" />
+    <entry file="file://$PROJECT_DIR$/../inthezone-WSS/@@attempt_2/staff.php" />
     <entry file="file://$PROJECT_DIR$/HTML_PHP/gamesstore.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -262,27 +262,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../inthezone-WSS/@@attempt_2/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../inthezone-WSS/@@attempt_2/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="42" column="26" lean-forward="true" selection-start-line="42" selection-start-column="26" selection-end-line="42" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../inthezone-WSS/@@attempt_2/logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../inthezone-WSS/@@attempt_2/index.php" />
+    <entry file="file://$PROJECT_DIR$/../inthezone-WSS/@@attempt_2/login.php" />
+    <entry file="file://$PROJECT_DIR$/../inthezone-WSS/@@attempt_2/logout.php" />
     <entry file="file://$PROJECT_DIR$/INCLUDES/footer.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -290,20 +272,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../inthezone-WSS/@@attempt_2/new_user.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="64" column="24" lean-forward="true" selection-start-line="64" selection-start-column="24" selection-end-line="64" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/INCLUDES/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../inthezone-WSS/@@attempt_2/new_user.php" />
     <entry file="file://$PROJECT_DIR$/HTML_PHP/events.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -346,13 +315,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_PHP/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HTML_PHP/logout.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -367,24 +329,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CSS/style.css">
+    <entry file="file://$PROJECT_DIR$/HTML_PHP/new_user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="1041" column="30" selection-start-line="1041" selection-start-column="30" selection-end-line="1041" selection-end-column="30" />
+        <state relative-caret-position="697">
+          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HTML_PHP/new_user.php">
+    <entry file="file://$PROJECT_DIR$/CSS/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="41" column="6" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        <state relative-caret-position="595">
+          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/INCLUDES/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML_PHP/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
-          <caret line="60" column="10" lean-forward="true" selection-start-line="60" selection-start-column="10" selection-end-line="60" selection-end-column="10" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HTML_PHP/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
         </state>
       </provider>
     </entry>
